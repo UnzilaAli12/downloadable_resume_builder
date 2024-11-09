@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(226, 239, 239) ;
+}
+p{
+    font-weight: 600;
+}
+h1 {
+    text-align: center;
+    color: #2c3e60;
+}
+form{
+    max-width: 800px;
+    height: 850px;
+    margin: auto;
+    background-color: rgb(198, 221, 221);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #727272;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(217, 222, 227);
+}
+legend{
+    font-weight: bolder;
+    text-align: center;
+    color: #1a212f;
+}
+label{
+    display: block;
+    margin-top: 0px;
+}
+input, textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #4ba2c2;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 30%;
+    padding: 9px;
+    background-color: #8f99ab;
+    color: #080e1b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+button:hover{
+    background-color: #46597c;
+}
+
+#resumeOutput{
+max-width: 800px;
+margin: auto;
+padding: 14px;
+border: 1px solid #2983a3;
+border-radius: 6px;
+background-color: rgb(205, 218, 233) ;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#resumeOutput h2{
+    color: #3502022f;
+}
+
+
